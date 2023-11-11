@@ -1,6 +1,6 @@
 import cv2 as cv
 import numpy as np
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
 img_rgb = cv.imread('mario1.jpg')
 img_gray = cv.cvtColor(img_rgb, cv.COLOR_BGR2GRAY)
 template = cv.imread('mario_coin.jpg',0)
